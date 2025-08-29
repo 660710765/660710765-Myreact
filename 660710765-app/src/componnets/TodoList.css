@@ -1,0 +1,9 @@
+.todo-item {
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+
+.todo-item:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transform: scale(1.08);
+  cursor: pointer;
+}

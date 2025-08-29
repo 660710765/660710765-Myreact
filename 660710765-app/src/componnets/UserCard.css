@@ -1,0 +1,14 @@
+.user-card {
+  transition: 
+    background 0.3s,
+    box-shadow 0.3s,
+    transform 0.2s;
+  background: #2e2e2e;
+}
+
+.user-card:hover {
+  background: #ff9800;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 2px 8px rgb(255, 255, 255);
+  transform: scale(1.04);
+  cursor: pointer;
+}
