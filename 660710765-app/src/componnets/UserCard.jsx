@@ -24,7 +24,9 @@ const UserName = () => (
 );
 const UserBio = () => (
     <p style={{ color: '#ffffffff', fontSize: '14px' }}>
-        อายุ20 
+        รหัสนักศึกษา 660710765<br/>
+        สาขาวิชา เทคโนโลยีสารสนเทศ<br/>
+        คณะ วิทยาศาสตร์<br/>
     </p>
 );
 const UserCard = () => {

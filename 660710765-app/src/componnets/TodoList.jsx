@@ -1,15 +1,15 @@
 import React from 'react';
 import './TodoList.css';
 const TodoList = () => {
-    // ข้อมูลที่จะแสดง
+
     const todos = [
-        { id: 1, text: 'กินข้าว', completed: true },
-        { id: 2, text: 'ทำความเข้าใจ Components', completed: false },
-        { id: 3, text: 'ฝึก Props และ State', completed: false },
-        { id: 4, text: 'สร้างโปรเจคจริง', completed: false }
+        { id: 1, text: 'ศึกษาการเขียนภาษา GO ', completed: true },
+        { id: 2, text: 'ฝึกทำโจทย์ภาษา Go', completed: true },
+        { id: 3, text: 'ศึกษาการทำ React', completed: true },
+        { id: 4, text: 'ลองสร้าง Font end ด้วย React', completed: false },
+        { id: 5, text: 'ลองเชื่อมFont end Back End เข้าด้วยกัน', completed: false }
     ];
-    
-    // คำนวณสถิติ
+  
     const completedCount = todos.filter(todo => todo.completed).length;
     const totalCount = todos.length;
     const percentage = Math.round((completedCount / totalCount) * 100);
