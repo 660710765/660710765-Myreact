@@ -8,7 +8,7 @@
 
 .user-card:hover {
   background: #ff9800;
-  box-shadow: 0 12px 32px rgba(0,0,0,0.35), 0 2px 8px rgb(255, 255, 255);
+  box-shadow: 0 15px 32px rgba(0,0,0,0.35), 0 2px 8px rgb(73, 73, 73);
   transform: scale(1.04);
   cursor: pointer;
 }
